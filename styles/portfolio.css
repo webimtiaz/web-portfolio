@@ -1,0 +1,92 @@
+
+.open-sans-normalfont {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* comon share part  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text_promari{
+    color: #FD6E0A;
+}
+.dark_2{
+    color: #474747;
+}
+.btn_primari{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 35px;
+    border: none;
+}
+
+/* baground img  */
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+
+/* nav part  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav_title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+   text-decoration: none;
+}
+
+/* banner part  */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner_container{
+    max-width: 580px;
+}
+.banner_greeting{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+}
+.banner_title{
+    font-size: 85px;
+    color: #181818;
+    font-weight: bold;
+}
+.banner_discription{
+    font-size: 18px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.banner_profile_pic{
+    width: 580px;
+}
