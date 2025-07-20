@@ -27,6 +27,27 @@
     padding: 20px 35px;
     border: none;
 }
+.secoundary_bg{
+    background-color: #fff8f3;
+}
+
+.section_title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section_discription{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0;
+    padding: 0 40px;
+    
+}
+
+.text_aling{
+    text-align: center;
+}
+
 
 /* baground img  */
 .header{
@@ -89,4 +110,42 @@ nav li a{
 }
 .banner_profile_pic{
     width: 580px;
+}
+
+/* about section */
+main {
+     max-width: 1140px;
+    margin: 132px auto;
+    
+}
+main section{
+    margin-top: 132px;
+    
+}
+.about{   
+    text-align: center;
+    padding: 150px 120px;
+
+}
+.section_item{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section skills */
+
+.skill_container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill .skile_title{
+    padding:105px 30px 30px;
+}
+.skill_discription{
+    line-height: 30px;
+    margin-top: 20px;
 }
